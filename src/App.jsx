@@ -18,12 +18,11 @@ export default function App() {
     <Trending/>
     <TopInvestments/>
      <EveryThing/>
-
     <Localites/>
     <NewProperties/>
-    <Blogs/>
     <OurWork/>
-   
+    <Blogs/>
+      
     <QNA/>
     <Footer/>
    </>
