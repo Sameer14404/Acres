@@ -46,7 +46,7 @@ const Navbar = () => {
             </a>
           </div>
 
-          {/* Search Bar for large screens */}
+          {/* Search Bar for large screens  */}
           <div className="hidden lg:flex  w-1/2 m-2  h-4  justify-center">
             <input
               type="text"
