@@ -1,14 +1,15 @@
 import React, { useState } from "react";
 
 // Array of Cloudinary image URLs for properties
-const propertyImages = [
-  "https://dlajgvw9htjpb.cloudfront.net/cms/fb44ee0c-17b4-49c6-a5cd-56e0bdb4fb9c/A11478040/-8280597360208347391.jpg",
-  "https://dlajgvw9htjpb.cloudfront.net/cms/fb44ee0c-17b4-49c6-a5cd-56e0bdb4fb9c/A11478040/2149096853229457563.jpg",
-  "https://dlajgvw9htjpb.cloudfront.net/cms/fb44ee0c-17b4-49c6-a5cd-56e0bdb4fb9c/A11478040/5942877172124353418.jpg",
-  "https://dlajgvw9htjpb.cloudfront.net/cms/fb44ee0c-17b4-49c6-a5cd-56e0bdb4fb9c/A11478040/-5033829493867515710.jpg",
-];
+
 
 const OurWork = () => {
+  const propertyImages = [
+    "https://dlajgvw9htjpb.cloudfront.net/cms/fb44ee0c-17b4-49c6-a5cd-56e0bdb4fb9c/A11478040/-8280597360208347391.jpg",
+    "https://dlajgvw9htjpb.cloudfront.net/cms/fb44ee0c-17b4-49c6-a5cd-56e0bdb4fb9c/A11478040/2149096853229457563.jpg",
+    "https://dlajgvw9htjpb.cloudfront.net/cms/fb44ee0c-17b4-49c6-a5cd-56e0bdb4fb9c/A11478040/5942877172124353418.jpg",
+    "https://dlajgvw9htjpb.cloudfront.net/cms/fb44ee0c-17b4-49c6-a5cd-56e0bdb4fb9c/A11478040/-5033829493867515710.jpg",
+  ];
   const [currentSlide, setCurrentSlide] = useState(0);
 
   return (

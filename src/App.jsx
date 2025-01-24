@@ -22,7 +22,6 @@ export default function App() {
     <NewProperties/>
     <OurWork/>
     <Blogs/>
-      
     <QNA/>
     <Footer/>
    </>
