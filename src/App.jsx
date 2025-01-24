@@ -5,7 +5,7 @@ import Footer from "./Components/Footer";
 import Localites from "./Components/Localites";
 import Navbar from "./Components/Navbar";
 import NewProperties from "./Components/NewProperties";
-import MyWork from "./Components/MyWork";
+import MyWork  from "./Components/MyWork";
 
 
 
