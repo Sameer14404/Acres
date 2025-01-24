@@ -24,16 +24,18 @@ const OurWork = () => {
             transform: `translateX(-${currentSlide * 100}%)`,
           }}
         >
-          {propertyImages.map((image, index) => (
-            <div key={index} className="flex-shrink-0 w-full h-full">
+          {propertyImages.map((image, index) =>  <div key={index} className="flex-shrink-0 w-full h-full">
               <img
                 src={image}
                 alt={`Property ${index + 1}`}
                 className="w-full h-full object-cover"
                 onError={(e) => (e.target.src = "fallback-image.jpg")} // Fallback image
               />
-            </div>
-          ))}
+            </div> )}
+
+          
+          
+          
         </div>
 
         {/* Dots Indicator */}
