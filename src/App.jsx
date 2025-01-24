@@ -13,6 +13,7 @@ import Trending from "./Components/Trending";
 export default function App() {
   return (
    <>
+   
     <Navbar/>
     <Details/>
     <Trending/>
