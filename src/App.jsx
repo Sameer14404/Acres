@@ -5,7 +5,7 @@ import Footer from "./Components/Footer";
 import Localites from "./Components/Localites";
 import Navbar from "./Components/Navbar";
 import NewProperties from "./Components/NewProperties";
-import MyWork from "./Components/Ourwork";
+import MyWork from "./Components/MyWork";
 
 
 
@@ -24,7 +24,7 @@ export default function App() {
      <EveryThing/>
     <Localites/>
     <NewProperties/>
-   <MyWork/>
+    <MyWork/>
     <Blogs/>
     <QNA/>
     <Footer/>
