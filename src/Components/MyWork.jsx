@@ -29,6 +29,7 @@ const MyWork = () => {
                 alt={`Property ${index + 1}`}
                 className="w-full h-full object-cover"
                 onError={(e) => (e.target.src = "fallback-image.jpg")} // Fallback image
+                src={image}
               />
             </div> )}
 

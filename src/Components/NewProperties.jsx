@@ -33,7 +33,7 @@ const NewProperties = () => {
       {/* Overlay Content */}
       <div className="relative z-10 h-full flex items-center justify-center bg-gradient-to-r from-black/60 to-transparent w-full">
         <div className="text-white text-center p-8 ">
-          <h1 className="text-3xl font-bold mb-6">Discover the New Development</h1>
+          <h1 className="lg:text-3xl font-bold mb-6  sm:text-center">Discover the New Development</h1>
           
 
           {/* Moving Properties */}

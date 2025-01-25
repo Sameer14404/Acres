@@ -167,7 +167,7 @@ const Navbar = () => {
             Start your journey today and explore the finest properties near you.
           </p>
           <div className="mt-10 flex justify-center gap-4">
-            <button className="bg-white text-black font-semibold text-lg py-3 px-6 rounded-lg hover:bg-gray-300 transition-all">
+            <button className="bg-white text-black font-semibold md:text-lg  sm:text-sm py-3 px-6 rounded-lg hover:bg-gray-300 transition-all">
               Explore Properties
             </button>
             <button className="bg-transparent border border-white text-white font-semibold text-lg py-3 px-6 rounded-lg hover:bg-white hover:text-black transition-all">
