@@ -154,10 +154,10 @@ const Navbar = () => {
       {/* Page Content */}
       <div className="relative z-10 text-white text-center px-6 md:px-12 font-sans">
         <div className="h-[2000px] pt-32">
-          <h1 className="text-4xl md:text-5xl font-bold leading-tight">
+          <h1 className="text-4xl md:text-5xl sm:text-3xl font-bold leading-tight">
             Discover Your Dream Home
           </h1>
-          <h2 className="mt-5 text-3xl md:text-4xl font-light">
+          <h2 className="mt-5 text-3xl md:text-4xl sm:text-3xl font-light">
             Welcome To Acres
           </h2>
           <p className="mt-5 text-lg md:text-xl">
